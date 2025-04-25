@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <style>
 
-        .container{
+        /* .container{
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: flex-end;
             align-items: center;
-        }
-        .item{
-            height: 50px;
-            
-        }
-       
+        } */
+
+    /* 
+     flex-direction: column; 에 따라서 방향이 바뀐다.
+     메인축,교차축 방향에 따라서,,,
+     justify-content (메인축)
+     align-items: center (교차축)
+
+    */
+    
+    .item:nth-child(1) {
+        order:5;
+    }
+    .item:nth-child(2) {
+        order: 8;
+    }
+    .item:nth-child(3) {
+        order: -1;
+    }
+
     </style>
    
 <body>

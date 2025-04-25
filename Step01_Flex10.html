@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step01_Flex10.html</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            height: 50px;
+            line-height: 50px;
+           
+        }
+        .box{
+            color: wheat;
+            text-align: center;
+            height: 100%;
+        }
+        .box1 {
+            background-color: red;
+            flex: 1;
+        
+        }
+        .box2 {
+            background-color: green;
+            flex: none;
+            width: 400px;
+            /* */
+        }
+        .box3 {
+            background-color: blue;
+            flex: 2;
+        
+        }
+    
+
+    </style>
+
+
+   
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">2</div> 
+        <div class="box3">3</div> 
+
+    </div>
+    
+</body>
+</html>

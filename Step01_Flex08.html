@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step01_Flex03.html</title>
+    <title>Step01_Flex08.html</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
         .container{
             display: flex;
-            width: 200px;
-                /*
-                [ flex-wrap ]
-                - item의 줄바꿈을 결정하는 속성
-                nowrap | wrap | wrap-reverse
-            */
-            flex-wrap: wrap;
-
+            justify-content: center;
+            align-items: center;
         }
-      
+        .item{
+            height: 50px;
+            
+        }
+       
     </style>
    
 <body>
@@ -25,6 +24,8 @@
         <div class="item">div1</div>
         <div class="item">div2</div>
         <div class="item">div3</div>
+        
     </div>
+  
 </body>
 </html>

@@ -8,13 +8,24 @@
     <style>
        /* 
        부모한테 걸어준 자식한테 영향을 받음
-       */
+
+       1. 가로에서 중앙 justify-content: center;
+       2. 세로축으로  align-items: center;
+
+
+        /*
+        align-content
+        여러 줄의 아이템들을 교차축 방향으로 정렬
+        flex-wrap:wrap 상태에서만 동작
+        stretch|flex-start|fiex-end|center|
+        */
+
+
+       
         .container{
             display: flex;
-            justify-content: space-between;
-            
-    
- 
+            justify-content: center;
+            align-items: center;
         }
         .item{
             height: 50px;

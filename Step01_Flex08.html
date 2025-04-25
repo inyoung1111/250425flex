@@ -6,41 +6,34 @@
     <title>Step01_Flex08.html</title>
     <link rel="stylesheet" href="style.css">
     <style>
-
-        /* .container{
-            display: flex;
-            flex-direction: column;
+        .container {
+            display:flex;
+            /*
+                flex-direction 방향에 따라
+                justify-content(메인축)
+                align-items(교차축)
+                방향이 바뀜
+            */
+            /* flex-direction: column;
             justify-content: flex-end;
-            align-items: center;
-        } */
-
-    /* 
-     flex-direction: column; 에 따라서 방향이 바뀐다.
-     메인축,교차축 방향에 따라서,,,
-     justify-content (메인축)
-     align-items: center (교차축)
-
-    */
-    
-    .item:nth-child(1) {
-        order:5;
-    }
-    .item:nth-child(2) {
-        order: 8;
-    }
-    .item:nth-child(3) {
-        order: -1;
-    }
-
+            align-items: center; */
+        }
+        .item:nth-child(1) {
+            order:5;
+        }
+        .item:nth-child(2) {
+            order:8;
+        }
+        .item:nth-child(3) {
+            order:-1;
+        }
     </style>
-   
+</head>
 <body>
     <div class="container">
         <div class="item">div1</div>
         <div class="item">div2</div>
         <div class="item">div3</div>
-        
     </div>
-  
 </body>
 </html>

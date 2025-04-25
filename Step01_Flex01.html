@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step01_Flex01.html</title>
+    <style>
+        .container{
+            display: flex;
+            /*  1.마치 inline 처럼 작동 
+                2. 자신이 가진 iteml 의 width 값 만큼 차지
+                3.height는 flex container의 높이만큼 늘어남
+            */
+
+        }
+        .container>div {
+            /* float: left */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div class="item">div1</div>
+        <div class="item">div2</div>
+        <div class="item">div3</div>
+    </div>
+</body>
+</html>

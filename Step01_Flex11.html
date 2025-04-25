@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step01_Flex10.html</title>
+    <title>Step01_Flex11.html</title>
     <style>
         .container{
             display: flex;
             align-items: center;
             border: 1px solid black;
-            height: 50px;
-            line-height: 50px;
+            height: 200px;
            
         }
         .box{
-            color: wheat;
+            color: white;
             text-align: center;
-            height: 100%;
+            width: 100px;
+            padding: 20px;
         }
         .box1 {
             background-color: red;
-            flex: 1;
+            align-self: flex-start;
+           
         
         }
         .box2 {
             background-color: green;
-            flex: none;
-            width: 400px;
-            /* */
+            align-self: center;
+
+
+           
         }
         .box3 {
             background-color: blue;
-            /* 
-            flex-grow:2
-            */
-            flex: 2;
-            /* flex: 2 1 0; */
+            align-self: flex-end;
+    
         
         }
     
